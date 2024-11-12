@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 //When the file included all the variables and functions are available in the file.
 include_once('db-connect.php');
 

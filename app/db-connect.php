@@ -8,7 +8,7 @@ $db_name = "defaultdb";
 $port = 24334;
 
 // SSL certificate
-$ssl_ca = 'ca.pem';
+$ssl_ca = __DIR__ . '/ca.pem';
 
 // Create connection variable with SSL
 $link = mysqli_init();

@@ -1,5 +1,4 @@
 <?php
-session_start();
 // Database connection details
 $host = "educomm-bhism.j.aivencloud.com";
 $username = "avnadmin";

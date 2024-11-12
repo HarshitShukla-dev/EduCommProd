@@ -13,9 +13,7 @@ $myid = mysqli_real_escape_string($link, $myid);
 $mypassword = mysqli_real_escape_string($link, $mypassword);
 
 // Store the user ID in a session variable
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-}
+session_start();
 $_SESSION['login_id'] = $myid;
 
 //sql query to select the user type(admin,teacher,parent) from the users table

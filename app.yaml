@@ -1,0 +1,6 @@
+kind: wasmer.io/App.v0
+name: EduCommProd
+owner: harshitshukla-dev
+package: .
+scaling:
+  mode: single_concurrency

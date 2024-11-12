@@ -9,7 +9,7 @@ $row=mysqli_fetch_array($session);
 $login_session = $loged_user_name = $row['name'];
 if(!isset($login_session)){
     // If the user is not logged in, redirect to the main page
-    header("Location:../../");
+    header("Location: /../");
 }
 ?>
 <!DOCTYPE html>

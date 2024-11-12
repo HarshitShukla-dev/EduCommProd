@@ -8,7 +8,7 @@ $row=mysqli_fetch_array($session);
 $login_session = $loged_user_name = $row['name'];
 // Check if the user is logged in by checking the session
 if(!isset($login_session)){
-    header("Location:../../");
+    header("Location: /../");
 }
 ?>
 <!DOCTYPE html>
